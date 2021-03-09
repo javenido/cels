@@ -1,0 +1,124 @@
+﻿@model TeachersViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centennial English Learning Services (CELS)">
+    <link rel="icon" href="~/images/icon.png">
+
+    <script src="~/js/scripts.js" asp-append-version="true"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/browseteachers.css" asp-append-version="true">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" asp-append-version="true">
+
+    <title>Centennial English Learning Services (CELS)</title>
+
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <header>
+        @await Html.PartialAsync("Navigation")
+    </header>
+
+    <section>
+        <div class="row">
+            <h2>
+                Registered Teachers
+            </h2>
+        </div>
+
+        <div class="row">
+            <div class="teacherBrowser">
+                <div class="searchBar">
+                    <a class="searchIcon" onclick="searchTeachers(true)"><img src="~/images/search.png" /></a>
+                    <input asp-for="SearchKey" type="text" placeholder="Teacher's name" onkeydown="searchTeachers()">
+
+                    <input asp-for="Order" type="checkbox" onchange="searchTeachers(true)" hidden />
+                    <a style="margin-left: 25%;"
+                       class="searchIcon" onclick="toggleOrder(); searchTeachers(true);"><img src="~/images/sort.png" /></a>
+
+                    <select asp-for="SortBy" onchange="searchTeachers(true)">
+                        <option value="rating" selected>By Rating</option>
+                        <option value="name">By Name</option>
+                        <option value="years">By Years of Experience</option>
+                        <option value="bookings">By Number of Times Booked</option>
+                    </select>
+                </div>
+
+                <div class="searchResults">
+                    @if(!Model.TeachersList.Any())
+                    {
+                        <span>Your search for "@Model.SearchKey" did not return any results.</span>
+                    }
+
+                    @foreach (AppUser teacher in Model.TeachersList)
+                    {
+                        <div class="resultCard">
+                            @if (@teacher.PhotoUrl != null)
+                            {
+                                <center><img src="@teacher.PhotoUrl" alt="Profile Picture" class="profile"></center>
+                            }
+                            else
+                            {
+                                <center><img src="~/images/user.png" alt="Profile Picture" class="profile"></center>
+                            }
+
+                            <h1 class="name">@teacher.FirstName @teacher.LastName</h1><br>
+
+                            <i class="fa fa-plus icon" aria-hidden="true"></i><p>Years of Teaching Experience: @teacher.GetYearsOfExperience()</p>
+                            <i class="fa fa-star icon" aria-hidden="true"></i><p>Satisfaction Rate: @teacher.GetSatisfactionRate()%</p>
+                            <i class="fa fa-thumbs-up icon" aria-hidden="true"></i><p>Number of Times Booked: @teacher.GetTimesBooked()</p><br>
+
+                            <a asp-controller="Application" asp-action="Profile" asp-route-userName="@teacher.UserName" class="btn">View Profile</a>
+
+                            <a asp-controller="Appointment"
+                               asp-action="BookAppointment"
+                               asp-route-teacherId="@teacher.UserName"
+                               asp-route-studentId="@User.Identity.Name" class="edit">Book an Appointment</a>
+                        </div>
+                    }
+                </div>
+
+                <div class="pagination">
+                    <!-- Previous -->
+                    @if (Model.PagingInfo.CurrentPage > 1)
+                    {
+                        <a asp-controller="Teacher"
+                           asp-action="BrowseTeachers"
+                           asp-route-page="@(Model.PagingInfo.CurrentPage - 1)"
+                           asp-route-sortby="@Model.SortBy"
+                           asp-route-order="@Model.Order"
+                           asp-route-search="@Model.SearchKey">&laquo;</a>
+                    }
+
+                    <!-- Pages -->
+                    @for (int i = 1; i < Model.PagingInfo.TotalPages + 1; i++)
+                    {
+                        <a asp-controller="Teacher"
+                           asp-action="BrowseTeachers"
+                           asp-route-page="@i"
+                           asp-route-sortby="@Model.SortBy"
+                           asp-route-order="@Model.Order"
+                           asp-route-search="@Model.SearchKey">@i</a>
+                    }
+
+                    <!-- Next -->
+                    @if (Model.PagingInfo.CurrentPage < Model.PagingInfo.TotalPages)
+                    {
+                        <a asp-controller="Teacher"
+                           asp-action="BrowseTeachers"
+                           asp-route-page="@(Model.PagingInfo.CurrentPage + 1)"
+                           asp-route-sortby="@Model.SortBy"
+                           asp-route-order="@Model.Order"
+                           asp-route-search="@Model.SearchKey">&raquo;</a>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

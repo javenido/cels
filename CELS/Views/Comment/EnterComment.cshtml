@@ -1,0 +1,104 @@
+﻿@model Comment
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centennial English Learning Services (CELS)">
+    <link rel="icon" href="~/images/icon.png">
+
+    <script src="~/js/scripts.js" asp-append-version="true"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/bookappointment.css" asp-append-version="true">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" asp-append-version="true">
+
+    <title>Centennial English Learning Services (CELS)</title>
+
+</head>
+
+<body>
+    <header>
+        @await Html.PartialAsync("Navigation")
+    </header>
+
+    <section>
+        <div class="row">
+            <div class="booking-form">
+                <h2>Comment on Teacher</h2>
+                <div class="validation" asp-validation-summary="All"></div>
+
+                <form asp-controller="Comment"
+                      asp-action="EnterComment"
+                      method="post" class="comment-form">
+                    <!-- Hidden Inputs -->
+                    <input asp-for="CommentId" hidden />
+                    <input asp-for="TeacherId" hidden />
+                    <input asp-for="StudentId" hidden />
+
+                    <table>
+                        <colgroup>
+                            <col span="1" style="width: 30%;">
+                            <col span="1" style="width: 70%;">
+                        </colgroup>
+
+                        <!-- Teacher Details -->
+                        <tr>
+                            <td>
+                                @if (@Model.GetTeacher().PhotoUrl != null)
+                                {
+                                    <img src="@Model.GetTeacher().PhotoUrl" alt="CELS logo" class="profile">
+                                }
+                                else
+                                {
+                                    <img src="~/images/user.png" alt="CELS logo" class="profile">
+                                }
+                            </td>
+                            <td>
+                                <div class="box">
+                                    <h1 class="title">
+                                        <a asp-controller="Application"
+                                           asp-action="Profile"
+                                           asp-route-userName="@Model.GetTeacher().UserName">@Model.GetTeacher().GetFullName()</a>
+                                    </h1><br>
+                                    <p>Years of Teaching Experience: <strong>@Model.GetTeacher().GetYearsOfExperience()</strong></p>
+                                    <p>Satisfaction Rate: <strong>@Model.GetTeacher().GetSatisfactionRate()%</strong></p>
+                                    <p>Number of Times Booked: <strong>@Model.GetTeacher().GetTimesBooked()</strong></p>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <!-- Content -->
+                        <tr>
+                            <td style="vertical-align: top;">Content (1000 characters):</td>
+                            <td><textarea asp-for="Content" cols=50 rows=4 class="message" maxlength="1000" required></textarea></td>
+                        </tr>
+
+                        <!-- Course -->
+                        <tr>
+                            <td>Course:</td>
+                            <td>
+                                <select asp-for="Course" required>
+                                    <option value="">Select a course</option>
+                                    @foreach (string course in Enum.GetNames(typeof(Courses)))
+                                    {
+                                        var _course = course.Replace('_', ' ');
+                                        <option value="@_course">@_course</option>
+                                    }
+                                </select>
+                            </td>
+                        </tr>
+
+                        <!-- Submit -->
+                        <tr>
+                            <td>
+                            </td>
+                            <td><input type="submit" value="Submit"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

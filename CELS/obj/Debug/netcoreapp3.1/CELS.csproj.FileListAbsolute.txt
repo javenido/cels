@@ -1,0 +1,516 @@
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.exe
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.deps.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.runtimeconfig.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.runtimeconfig.dev.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.pdb
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.Views.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.Views.pdb
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\AWSSDK.DynamoDBv2.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\AWSSDK.S3.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.csprojAssemblyReference.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.AssemblyInfoInputs.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.AssemblyInfo.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.csproj.CoreCompileInputs.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorAssemblyInfo.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorAssemblyInfo.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.TagHelpers.input.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.TagHelpers.output.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorCoreGenerate.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Account\EditProfile.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Application\BookAppointment.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Application\Portal.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Application\Profile.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorTargetAssemblyInfo.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorTargetAssemblyInfo.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.Views.pdb
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.csproj.CopyComplete
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\staticwebassets\CELS.StaticWebAssets.Manifest.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\staticwebassets\CELS.StaticWebAssets.xml
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.pdb
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.genruntimeconfig.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Teacher\BrowseTeachers.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.exe
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.deps.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.runtimeconfig.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.runtimeconfig.dev.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.pdb
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.Views.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.Views.pdb
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\AWSSDK.DynamoDBv2.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\AWSSDK.S3.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.csprojAssemblyReference.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.AssemblyInfoInputs.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.AssemblyInfo.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.csproj.CoreCompileInputs.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorAssemblyInfo.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorAssemblyInfo.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.TagHelpers.input.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.TagHelpers.output.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorCoreGenerate.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Account\EditProfile.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Application\Portal.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Application\Profile.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Teacher\BrowseTeachers.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorTargetAssemblyInfo.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorTargetAssemblyInfo.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.Views.pdb
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.csproj.CopyComplete
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\staticwebassets\CELS.StaticWebAssets.Manifest.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\staticwebassets\CELS.StaticWebAssets.xml
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.pdb
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.genruntimeconfig.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\mine\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Appointment\BookAppointment.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.exe
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.deps.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.runtimeconfig.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.runtimeconfig.dev.json
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.pdb
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.Views.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.Views.pdb
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\AWSSDK.DynamoDBv2.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\AWSSDK.S3.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.csprojAssemblyReference.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.AssemblyInfoInputs.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.AssemblyInfo.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.csproj.CoreCompileInputs.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorAssemblyInfo.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorAssemblyInfo.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.TagHelpers.input.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.TagHelpers.output.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorCoreGenerate.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Account\EditProfile.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Application\Portal.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Application\Profile.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Appointment\BookAppointment.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Teacher\BrowseTeachers.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorTargetAssemblyInfo.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorTargetAssemblyInfo.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.Views.pdb
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.csproj.CopyComplete
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\staticwebassets\CELS.StaticWebAssets.Manifest.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\staticwebassets\CELS.StaticWebAssets.xml
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.dll
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.pdb
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.genruntimeconfig.cache
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Appointment\Appointments.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Comment\EnterComment.cshtml.g.cs
+C:\Users\Marvin\Desktop\MARVIN\STUDY\API Engineering and Cloud Computing\week6\Lab3\project\marvin\CELS\deploy\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Comment\Comments.cshtml.g.cs
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.exe
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.deps.json
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.runtimeconfig.json
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.runtimeconfig.dev.json
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.pdb
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.Views.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.Views.pdb
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\AWSSDK.DynamoDBv2.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\AWSSDK.S3.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.AssemblyInfoInputs.cache
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.AssemblyInfo.cs
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.csproj.CoreCompileInputs.cache
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorAssemblyInfo.cache
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorAssemblyInfo.cs
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.TagHelpers.input.cache
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.TagHelpers.output.cache
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorCoreGenerate.cache
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Account\EditProfile.cshtml.g.cs
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Application\Portal.cshtml.g.cs
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Application\Profile.cshtml.g.cs
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Appointment\Appointments.cshtml.g.cs
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Appointment\BookAppointment.cshtml.g.cs
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Comment\Comments.cshtml.g.cs
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Comment\EnterComment.cshtml.g.cs
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Teacher\BrowseTeachers.cshtml.g.cs
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorTargetAssemblyInfo.cache
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorTargetAssemblyInfo.cs
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.Views.pdb
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.csproj.CopyComplete
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\staticwebassets\CELS.StaticWebAssets.Manifest.cache
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\staticwebassets\CELS.StaticWebAssets.xml
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.dll
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.pdb
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.genruntimeconfig.cache
+C:\Users\John\Downloads\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.csprojAssemblyReference.cache
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.exe
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.deps.json
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.runtimeconfig.json
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.runtimeconfig.dev.json
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.pdb
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.Views.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\CELS.Views.pdb
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\AWSSDK.DynamoDBv2.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\AWSSDK.S3.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.AssemblyInfoInputs.cache
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.AssemblyInfo.cs
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorAssemblyInfo.cache
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorAssemblyInfo.cs
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.TagHelpers.input.cache
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.TagHelpers.output.cache
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorCoreGenerate.cache
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Account\EditProfile.cshtml.g.cs
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Application\Portal.cshtml.g.cs
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Application\Profile.cshtml.g.cs
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Appointment\Appointments.cshtml.g.cs
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Appointment\BookAppointment.cshtml.g.cs
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Comment\Comments.cshtml.g.cs
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Comment\EnterComment.cshtml.g.cs
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Teacher\BrowseTeachers.cshtml.g.cs
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorTargetAssemblyInfo.cache
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.RazorTargetAssemblyInfo.cs
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.Views.pdb
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.csproj.CopyComplete
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\staticwebassets\CELS.StaticWebAssets.Manifest.cache
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\staticwebassets\CELS.StaticWebAssets.xml
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.pdb
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.genruntimeconfig.cache
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.csproj.CoreCompileInputs.cache
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Navigation.cshtml.g.cs
+C:\Users\John\source\repos\COMP 306\Lab3\CELS_V10\CELS\CELS\obj\Debug\netcoreapp3.1\CELS.csprojAssemblyReference.cache

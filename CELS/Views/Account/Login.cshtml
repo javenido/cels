@@ -1,0 +1,79 @@
+﻿@model LoginViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centennial English Learning Services (CELS)">
+    <link rel="icon" href="~/images/icon.png">
+
+    <script src="~/js/scripts.js" asp-append-version="true"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/login.css" asp-append-version="true">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" asp-append-version="true">
+
+    <title>Centennial English Learning Services (CELS)</title>
+</head>
+
+    <body>
+        <header>
+            @await Html.PartialAsync("Navigation") 
+        </header>
+
+        <section>
+            <div class="row login-container">
+                <div class="col span-2-of-3">
+                    <div class="container_branding">
+                        <img src="/images/neonbrand-y_6rqStQBYQ-unsplash.png" class="banner" alt="CELS banner">
+                        <div class="content">
+                            <h1>CELS - English Made Easy</h1><br>
+                            <p><i>From everyday to business communications</i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-3">
+                    <form asp-controller="Account" asp-action="Login" method="post" class="login-form">
+                        <div class="validation" asp-validation-summary="All"></div>
+                        <div>
+                            <i class="fa fa-user icon" aria-hidden="true"></i>
+                            <input asp-for="UserName" type="text" name="username" id="username" placeholder="Your username" required>
+                        </div>
+                        <div>
+                            <i class="fa fa-key icon" aria-hidden="true"></i>
+                            <input asp-for="Password" type="password" name="password" id="password" placeholder="Your password" required>
+                        </div>
+                        <div>
+                            <input type="submit" value="Log In">
+                        </div>
+
+                        <div>
+                            <label>
+                                &nbsp;
+                            </label>
+                        </div>
+                        <div>
+                            <label class="line">
+                                &nbsp;
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <strong>Don't have an account?</strong>
+                            </label>
+                        </div>
+
+                        <div>
+                            <a asp-controller="Account" asp-action="Register" asp-route-isTeacher="true" class="btn">Create New Teacher Account</a>
+                        </div>
+                        <div>
+                            <a asp-controller="Account" asp-action="Register" asp-route-isTeacher="false" class="btn">Create New Student Account</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

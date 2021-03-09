@@ -1,0 +1,122 @@
+﻿@model Appointment
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centennial English Learning Services (CELS)">
+    <link rel="icon" href="~/images/icon.png">
+
+    <script src="~/js/scripts.js" asp-append-version="true"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/bookappointment.css" asp-append-version="true">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" asp-append-version="true">
+
+    <title>Book an Appointment | Centennial English Learning Services (CELS)</title>
+
+</head>
+
+<body>
+    <header>
+        @await Html.PartialAsync("Navigation")
+    </header>
+
+    <section>
+        <div class="row">
+            <div class="booking-form">
+                <h2>Booking Appointment Form</h2>
+                <div class="validation" asp-validation-summary="All"></div>
+
+                <form asp-controller="Appointment" asp-action="BookAppointment" method="post" class="contact-form">
+                    <!-- Hidden Inputs -->
+                    <input asp-for="AppointmentId" hidden />
+                    <input asp-for="TeacherId" hidden />
+                    <input asp-for="StudentId" hidden />
+                    <input asp-for="Satisfied" hidden />
+
+                    <table style="width: 100%">
+                        <colgroup>
+                            <col span="1" style="width: 30%;">
+                            <col span="1" style="width: 70%;">
+                        </colgroup>
+
+                        <!-- Teacher Details -->
+                        <tr>
+                            <td style="vertical-align: top;">
+                                @if (@Model.GetTeacher().PhotoUrl != null)
+                                {
+                                    <img src="@Model.GetTeacher().PhotoUrl" alt="Teacher's profile pic" class="profile">
+                                }
+                                else
+                                {
+                                    <img src="~/images/user.png" alt="Teacher's profile pic" class="profile">
+                                }
+                            </td>
+                            <td>
+                                <div class="box">
+                                    <h1 class="title">
+                                        <a asp-controller="Application"
+                                           asp-action="Profile"
+                                           asp-route-userName="@Model.GetTeacher().UserName">@Model.GetTeacher().GetFullName()</a>
+                                    </h1><br>
+                                    <p>Availability: @Model.GetTeacher().GetAvailability()</p><br />
+                                    <a asp-controller="Appointment"
+                                       asp-action="Appointments"
+                                       asp-route-userName="@Model.GetTeacher().UserName" target="_blank" class="btn">View Schedule</a>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <!-- Date -->
+                        <tr>
+                            <td>Date:</td>
+                            <td><input asp-for="Date" type="date" required /></td>
+                        </tr>
+
+                        <!-- Duration -->
+                        <tr>
+                            <td>Duration:</td>
+                            <td>
+                                <div>
+                                    <span>From: <input asp-for="StartTime" type="time" step="60" required /></span>
+                                    <span>To: <input asp-for="EndTime" type="time" step="60" required /></span>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <!-- Course -->
+                        <tr>
+                            <td>Course:</td>
+                            <td>
+                                <select asp-for="Course" required>
+                                    <option value="">Select a course</option>
+                                    @foreach (string course in Enum.GetNames(typeof(Courses)))
+                                    {
+                                        var _course = course.Replace('_', ' ');
+                                        <option value="@_course">@_course</option>
+                                    }
+                                </select>
+                            </td>
+                        </tr>
+
+                        <!-- Message -->
+                        <tr>
+                            <td style="vertical-align: top;">Message (optional):</td>
+                            <td><textarea asp-for="Message" cols=50 rows=4 class="message"></textarea></td>
+                        </tr>
+
+                        <!-- Submit -->
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit" value="Submit">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

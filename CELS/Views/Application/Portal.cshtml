@@ -1,0 +1,162 @@
+﻿@model PortalViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centennial English Learning Services (CELS)">
+    <link rel="icon" href="~/images/icon.png">
+
+    <script src="~/js/scripts.js" asp-append-version="true"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/portal.css" asp-append-version="true">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" asp-append-version="true">
+
+    <title>Portal | Centennial English Learning Services (CELS)</title>
+
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <header>
+        @await Html.PartialAsync("Navigation")
+    </header>
+
+    <section>
+        <div class="row login-container">
+            <div class="col span-1-of-2">
+                <div class="container_branding">
+                    <img src="~/images/fa-barboza-yuqCAKrbjyE-unsplash.png" class="banner" alt="CELS banner">
+                    <div class="content">
+                        <h1>CELS - @(User.IsInRole("tutor") ? "Teacher's" : "Student's") Portal</h1><br>
+                        <p><i>Hi, @Model.User.GetFullName().</i></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col span-1-of-2">
+                <!-- UPCOMING APPOINTMENT -->
+                <div class="box">
+                    <h1 class="title">
+                        Upcoming Appointment:
+                    </h1><br>
+                    @if (Model.NextAppointment != null)
+                    {
+                        <p>Date: @Model.NextAppointment.GetDate()</p>
+                        <p>Time: @Model.NextAppointment.GetTime()</p>
+                        @if (Model.IsTeacher)
+                        {
+                            <p>
+                                Student: <a asp-controller="Application"
+                                            asp-action="Profile"
+                                            asp-route-userName="@Model.NextAppointment.GetStudent().UserName">
+                                    @Model.NextAppointment.GetStudent().GetFullName()
+                                </a>
+                            </p>
+                        }
+                        else
+                        {
+                            <p>
+                                Teacher: <a asp-controller="Application"
+                                            asp-action="Profile"
+                                            asp-route-userName="@Model.NextAppointment.GetTeacher().UserName">
+                                    @Model.NextAppointment.GetTeacher().GetFullName()
+                                </a>
+                            </p>
+                        }
+                    }
+                    else
+                    {
+                        <p>You don't have any scheduled appointment.</p>
+                    }
+                </div>
+                <div>
+                    <a a asp-controller="Appointment"
+                       asp-action="Appointments" class="btn">View My Appointments</a>
+
+                    <!-- View Past Appointments (for students only) -->
+                    @if (User.IsInRole("tutee"))
+                    {
+                        <a a asp-controller="Appointment"
+                           asp-action="Appointments"
+                           asp-route-pastAppointments="true" class="btn">Rate Past Appointments</a>
+                    }
+                </div>
+
+                <!-- Latest Comment (for teacher only) -->
+                @if (User.IsInRole("tutor"))
+                {
+                    <div class="box">
+                        <h1 class="title">
+                            Latest Comment:
+                        </h1><br>
+                        @if (Model.LatestComment != null)
+                        {
+                            <p>"@Model.LatestComment.Content"</p><br />
+                            <p>
+                                Posted by: <a asp-controller="Application"
+                                              asp-action="Profile"
+                                              asp-route-userName="@Model.LatestComment.StudentId"
+                                              title="Go to this user's profile">@Model.LatestComment.GetAuthor().GetFullName()</a>
+                                        </p>
+                                        <p>Posted on: @Model.LatestComment.DateSubmitted.ToString("MMM d, yyyy h:mm tt")</p>
+                                        <p>Course: @Model.LatestComment.Course</p>
+                                    }
+                                    else
+                                    {
+                                        <p>No one has commented on your profile yet.</p>
+                                    }
+                    </div>
+                    <div>
+                        <a asp-controller="Comment"
+                           asp-action="Comments"
+                           asp-route-teacherId="@Model.User.UserName" class="btn">View All Comments</a>
+                    </div>
+                }
+
+                <!-- Best Teacher (for student only) -->
+                @if (User.IsInRole("tutee"))
+                {
+                    <div class="box">
+                        <h1 class="title">
+                            Most Popular Teacher:<br />@(Model.BestTeacher == null ? "" : Model.BestTeacher.GetFullName())
+                        </h1><br>
+                        @if (Model.BestTeacher != null)
+                        {
+                            <p>Satisfaction Rate: <strong>@Model.BestTeacher.GetSatisfactionRate()%</strong></p>
+                            <p>Number of Times Booked: <strong>@Model.BestTeacher.GetTimesBooked()</strong></p>
+                            <p>Years of Teaching Experience: <strong>@Model.BestTeacher.GetYearsOfExperience()</strong></p>
+                        }
+                        else
+                        {
+                            <p>This information is currently unavailable.</p>
+                        }
+                    </div>
+                    <div>
+                        @if (Model.BestTeacher != null)
+                        {
+                            <a asp-controller="Application"
+                               asp-action="Profile"
+                               asp-route-userName="@Model.BestTeacher.UserName" class="btn">View Profile</a>
+                        }
+                        <a asp-controller="Teacher" asp-action="BrowseTeachers" class="btn">View All Teachers</a>
+                    </div>
+                }
+
+                <!--<div class="box">
+                    <h1 class="title">
+                        Next Open Schedule (coming soon):
+                    </h1><br>
+                    <p>Date: Saturday, October 31, 2020</p>
+                    <p>Time: 3:15 PM to 4:15 PM</p>
+                </div>
+                <div>
+                    <a href="#" class="btn">Enlist Me For Booking</a>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

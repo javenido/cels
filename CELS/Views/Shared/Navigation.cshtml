@@ -1,0 +1,24 @@
+﻿<nav>
+    <div class="navbar">
+        <div class="logo">
+            <a asp-controller="Account" asp-action="Login" title="Go to home page"><img src="~/images/logo.png" alt="CELS logo" class="logo"></a>
+        </div>
+        <ul class="main-nav">
+            @if (User.Identity.IsAuthenticated)
+            {
+                <li><a asp-controller="Application" asp-action="Portal">Home</a></li>
+                <li><a asp-controller="Appointment" asp-action="Appointments">My Appointments</a></li>
+                <li><a asp-controller="Application" asp-action="Profile">My Profile</a></li>
+                @if (User.IsInRole("tutee"))
+                {
+                    <li><a asp-controller="Teacher" asp-action="BrowseTeachers">Browse Teachers</a></li>
+                }
+                <li><a asp-controller="Account" asp-action="Logout">Log Out</a></li>
+            }
+            else
+            {
+                <li><a asp-controller="Account" asp-action="Login">Log In</a></li>
+            }
+        </ul>
+    </div>
+</nav>

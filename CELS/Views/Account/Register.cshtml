@@ -1,0 +1,267 @@
+﻿@model RegisterViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centennial English Learning Services (CELS)">
+    <link rel="icon" href="~/images/icon.png">
+    <script src="~/js/scripts.js" asp-append-version="true"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/register.css" asp-append-version="true">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" asp-append-version="true">
+
+    <title>Registration | Centennial English Learning Services (CELS)</title>
+</head>
+
+    <body>
+        <!-- NAVIGATION -->
+        <header>
+            @await Html.PartialAsync("Navigation")
+        </header>
+
+        <section>
+            <div class="row">
+                <h2>
+                    @(Model.IsTeacher ? "Teacher's" : "Student's") Registration Form
+                </h2>
+            </div>
+
+            <!-- ERRORS -->
+            <div class="validation" asp-validation-summary="All"></div>
+
+            <!-- FORM -->
+            <div class="row form-container">
+                <form asp-controller="Account" asp-action="Register" method="post" class="contact-form" enctype="multipart/form-data">
+                    <!-- HIDDEN INPUT(S) -->
+                    <input type="hidden" asp-for="@Model.IsTeacher" />
+
+                    <!-- USER NAME -->
+                    <div>
+                        <div class="col span-1-of-3">
+                            <label asp-for="User.UserName">
+                                User Name:
+                            </label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input asp-for="User.UserName" type="text" placeholder="Your user name" required>
+                        </div>
+                    </div>
+
+                    <!-- FIRST AND LAST NAMES -->
+                    <div>
+                        <div class="col span-1-of-3">
+                            <label asp-for="User.FirstName">
+                                First Name:
+                            </label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input asp-for="User.FirstName" type="text" placeholder="Your first name" required>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col span-1-of-3">
+                            <label asp-for="User.LastName">
+                                Last Name:
+                            </label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input asp-for="User.LastName" type="text" placeholder="Your last name" required>
+                        </div>
+                    </div>
+
+                    <!-- PHONE NUMBER -->
+                    <div>
+                        <div class="col span-1-of-3">
+                            <label asp-for="User.PhoneNumber">
+                                Phone Number:
+                            </label>
+                        </div>
+                        <div>
+                            <div class="col span-2-of-3">
+                                <input asp-for="User.PhoneNumber" type="text" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Should follow this pattern. e.g. 123-456-7890" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- EMAIL -->
+                    <div>
+                        <div class="col span-1-of-3">
+                            <label asp-for="User.Email">
+                                Email:
+                            </label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input asp-for="User.Email" type="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+
+                    <!-- PASSWORD -->
+                    <div>
+                        <div class="col span-1-of-3">
+                            <label asp-for="Password">
+                                Password:
+                            </label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input asp-for="Password" type="password" onchange="validatePassword()" placeholder="Your password" required>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col span-1-of-3">
+                            <label>
+                                Confirm Password:
+                            </label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="password" id="confirm_password" onchange="validatePassword()" placeholder="Confirm password" required>
+                        </div>
+                    </div>
+
+                    <!-- FIRST LANGUAGE -->
+                    @if (!Model.IsTeacher)
+                    {
+                        <div>
+                            <div class="col span-1-of-3">
+                                <label asp-for="User.FirstLanguage">
+                                    First Language:
+                                </label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <select asp-for="User.FirstLanguage"
+                                        asp-items="Html.GetEnumSelectList<Languages>()" required>
+                                </select>
+                            </div>
+                        </div>
+                    }
+
+                    <!-- YEAR of INTEREST -->
+                    <div>
+                        <div class="col span-1-of-3">
+                            <label asp-for="User.YearOfInterest">
+                                @(Model.IsTeacher ? "Year Started Teaching:" : "Year Started Speaking English:")
+                            </label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select asp-for="User.YearOfInterest" required>
+                                <option value="">Select year</option>
+                                <option value="1990">≤1990</option>
+                                @for (int year = 1991; year <= DateTime.Now.Year; year++)
+                                {
+                                    <option value="@year">@year</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- DESCRIPTION -->
+                    <div>
+                        <div class="col span-1-of-3">
+                            <label asp-for="User.Description">
+                                Describe Yourself (1000 characters):
+                            </label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea asp-for="User.Description" class="description" maxlength="1000" required></textarea>
+                        </div>
+                    </div>
+
+                    <!-- AVAILABILITY -->
+                    @if (Model.IsTeacher)
+                    {
+                        <div>
+                            <div class="col span-1-of-3">
+                                <label asp-for="User.AvailabilityStart">
+                                    Availability:
+                                </label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                From: <input asp-for="User.AvailabilityStart" type="time" step="60" required onchange="validateAvailability()" />
+                                &nbsp; To: <input asp-for="User.AvailabilityEnd" type="time" step="60" required onchange="validateAvailability()" />
+                            </div>
+                        </div>
+                    }
+
+                    <!-- RESUME -->
+                    @if (Model.IsTeacher)
+                    {
+                        <div>
+                            <div class="col span-1-of-3">
+                                <label>
+                                    Upload Resume (PDF):
+                                </label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <label asp-for="Resume" class="btn">
+                                    <input type=file asp-for="Resume" accept="application/pdf"
+                                           onchange="validateExtension(this, 'doc'); displayResumeFileName(this);" />
+                                    Choose File
+                                </label>
+                                <span id="resumeFileName"></span>
+                            </div>
+                        </div>
+                    }
+
+                    <!-- PROFILE PICTURE -->
+                    <div>
+                        <div class="col span-1-of-3">
+                            <label>
+                                Upload Profile Picture:
+                            </label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <label asp-for="ProfilePic" class="btn">
+                                <input type=file asp-for="ProfilePic" accept=".jpeg, .jpg, .png"
+                                       onchange="validateExtension(this, 'img'); displayImageFileName(this);" />
+                                Choose File
+                            </label>
+                            <span id="imageFileName"></span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="col span-1-of-3">
+                            <label>
+                                &nbsp;
+                            </label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <label>
+                                &nbsp;
+                            </label>
+                        </div>
+                    </div>
+
+                    @if (!Model.IsTeacher)
+                    {
+                        <div>
+                            <div class="col span-1-of-3">
+                                <label>
+                                    &nbsp;
+                                </label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <label>
+                                    &nbsp;
+                                </label>
+                            </div>
+                        </div>
+                    }
+
+                    <!-- SUBMIT BUTTON -->
+                    <div>
+                        <div class="col span-1-of-3">
+                            <label>
+                                &nbsp;
+                            </label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Create Account">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

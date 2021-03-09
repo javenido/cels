@@ -1,0 +1,125 @@
+﻿@model CommentsViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centennial English Learning Services (CELS)">
+    <link rel="icon" href="~/images/icon.png">
+
+    <script src="~/js/scripts.js" asp-append-version="true"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/comments.css" asp-append-version="true">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" asp-append-version="true">
+
+    <title>Comments | Centennial English Learning Services (CELS)</title>
+
+</head>
+
+<body>
+    <header>
+        @await Html.PartialAsync("Navigation")
+    </header>
+
+    <section>
+        <div class="row">
+            <h2>
+                Comments on <a asp-controller="Application" asp-action="Profile"
+                               asp-route-userName="@Model.TeacherId">@Model.TeacherName</a>
+            </h2>
+        </div>
+
+        <!--<div class="row">
+        <div class="col span-2-of-3-sort">
+            <i class="fa fa-sort sort" aria-hidden="true"></i>
+            <select name="sortBy" id="sortBy">
+                <option value="By Date" selected>By Date</option>
+            </select>
+        </div>
+    </div>-->
+
+        @foreach (Comment comment in Model.CommentsList)
+        {
+            <div class="row">
+                <div class="col span-1-of-1">
+                    <div class="box">
+                        <p>"@comment.Content"</p><br>
+                        <div style="display: flex; flex-direction: row">
+                            @{string imgUrl = comment.GetAuthor().PhotoUrl == null ? "/images/user.png" : comment.GetAuthor().PhotoUrl;}
+                            <img src="@imgUrl" alt="Profile picture" height="100" class="commentImg" />
+                            <div>
+                                <p>
+                                    Posted by: <a asp-controller="Application"
+                                                  asp-action="Profile"
+                                                  asp-route-userName="@comment.StudentId"
+                                                  title="Go to this user's profile">@comment.GetAuthor().GetFullName()</a>
+                                            </p>
+                                            <p>Posted on: @comment.DateSubmitted.ToString("MMMM d, yyyy h:mm tt")</p>
+                                            <p>Course: @comment.Course</p>
+                                            @if (comment.DateEdited.Year != 1)
+                                            {
+                                                <p>
+                                                    Edited: @comment.DateEdited.ToString("MMMM d, yyyy h:mm tt")
+                                                </p>
+                                            }
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div>
+                                    @if (User.Identity.Name == comment.StudentId)
+                                    {
+                                        <a asp-controller="Comment"
+                                           asp-action="EnterComment"
+                                           asp-route-teacherId="@comment.TeacherId"
+                                           asp-route-studentId="@User.Identity.Name"
+                                           asp-route-id="@comment.CommentId" class="btn">Edit Comment</a>
+                                        <a asp-controller="Comment"
+                                           asp-action="DeleteComment"
+                                           asp-route-id="@comment.CommentId" class="btn">Delete Comment</a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+        <div class="row">
+            <div class="pagination">
+                <!-- Previous -->
+                @if (Model.PagingInfo.CurrentPage > 1)
+                {
+                    <a asp-controller="Comment"
+                       asp-action="Comments"
+                       asp-route-teacherId="@Model.TeacherId"
+                       asp-route-page="@(Model.PagingInfo.CurrentPage - 1)">&laquo;</a>
+                }
+
+                <!-- Pages -->
+                @for (int i = 1; i < Model.PagingInfo.TotalPages + 1; i++)
+                {
+                    <a asp-controller="Comment"
+                       asp-action="Comments"
+                       asp-route-teacherId="@Model.TeacherId"
+                       asp-route-page="@i">@i</a>
+                }
+
+                <!-- Next -->
+                @if (Model.PagingInfo.CurrentPage < Model.PagingInfo.TotalPages)
+                {
+                    <a asp-controller="Comment"
+                       asp-action="Comments"
+                       asp-route-teacherId="@Model.TeacherId"
+                       asp-route-page="@(Model.PagingInfo.CurrentPage + 1)">&raquo;</a>
+                }
+
+            </div>
+        </div>
+
+        @if (!Model.CommentsList.Any())
+        {
+            <center>No one has yet to comment on this profile.</center>
+        }
+    </section>
+</body>
+</html>

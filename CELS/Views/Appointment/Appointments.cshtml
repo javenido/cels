@@ -1,0 +1,97 @@
+﻿@model AppointmentsViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centennial English Learning Services (CELS)">
+    <link rel="icon" href="~/images/icon.png">
+
+    <script src="~/js/scripts.js" asp-append-version="true"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/profile.css" asp-append-version="true">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" asp-append-version="true">
+
+    <title>Centennial English Learning Services (CELS)</title>
+
+</head>
+
+<body>
+    <header>
+        @await Html.PartialAsync("Navigation")
+    </header>
+
+    <section>
+        <div class="row">
+            <h2>
+                @Model.UserName's @(Model.PastAppointments ? "Past " : "")Appointments
+            </h2>
+        </div>
+        @if (Model.Appointments.Any())
+        {
+            <table class="row">
+                <tr>
+                    <th>@(Model.UserIsTeacher ? "Student" : "Teacher")</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    @if (Model.PastAppointments && User.IsInRole("tutee"))
+                    {
+                        <th>Satisfied?</th>
+                    }
+                </tr>
+                @foreach (Appointment appointment in Model.Appointments)
+                {
+                    <tr>
+                        @if (!Model.UserIsTeacher)
+                        {
+                            <td>
+                                <a class="link" asp-controller="Application"
+                                   asp-action="Profile"
+                                   asp-route-userName="@appointment.GetTeacher().UserName">@appointment.GetTeacher().GetFullName()</a>
+                            </td>
+                        }
+                        @if (Model.UserIsTeacher)
+                        {
+                            <td>
+                                <a class="link" asp-controller="Application"
+                                   asp-action="Profile"
+                                   asp-route-userName="@appointment.GetStudent().UserName">@appointment.GetStudent().GetFullName()</a>
+                            </td>
+                        }
+                        <td>@appointment.GetDate()</td>
+                        <td>@appointment.GetTime()</td>
+                        @if (Model.PastAppointments && User.IsInRole("tutee"))
+                        {
+                            if (appointment.Satisfied)
+                            {
+                                <td>✓</td>
+                            }
+                            else
+                            {
+                                <td>
+                                    <a asp-controller="Appointment"
+                                       asp-action="SatisfyAppointment"
+                                       asp-route-id="@appointment.AppointmentId">Click to indicate satisfaction</a>
+                                </td>
+                            }
+                        }
+                    </tr>
+                }
+            </table>
+        }
+        else
+        {
+            @if (Model.PastAppointments)
+            {
+                <center>This user has no previous appointments.</center>
+            }
+            else
+            {
+                <center>This user currently has no scheduled appointments.</center>
+            }
+        }
+    </section>
+</body>
+</html>
+

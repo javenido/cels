@@ -1,0 +1,133 @@
+﻿@model ProfileViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centennial English Learning Services (CELS)">
+    <link rel="icon" href="~/images/icon.png">
+
+    <script src="~/js/scripts.js" asp-append-version="true"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/profile.css" asp-append-version="true">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" asp-append-version="true">
+
+    <title>@Model.User.GetFullName() | Centennial English Learning Services (CELS)</title>
+</head>
+
+<body>
+    <header>
+        @await Html.PartialAsync("Navigation")
+    </header>
+
+    <section>
+        <div class="row">
+            <h2>
+                @(User.Identity.Name==Model.User.UserName?"My":(Model.IsTeacher ? "Teacher's" : "Student's")) Profile
+            </h2>
+        </div>
+
+        <div class="row">
+            <div class="profile-container">
+                <!-- LEFT SIDE -->
+                <div class="profile-left">
+                    @if (Model.User.PhotoUrl != null)
+                    {
+                        <img src="@Model.User.PhotoUrl" alt="Profile Picture" class="profile">
+                    }
+                    else
+                    {
+                        <img src="~/images/user.png" alt="Profile Picture" class="profile">
+                    }
+
+                    @if (Model.IsTeacher)
+                    {
+                        @if (User.IsInRole("tutee"))
+                        {
+                            <a asp-controller="Appointment"
+                               asp-action="BookAppointment"
+                               asp-route-teacherId="@Model.User.UserName"
+                               asp-route-studentId="@User.Identity.Name" class="btn">Book an Appointment</a>
+
+                            if (Model.User.ResumeUrl != null)
+                            {
+                                <a class="btn" href="@Model.User.ResumeUrl" target="_blank">View Resume</a>
+                            }
+
+                            <a asp-controller="Comment" asp-action="EnterComment" asp-route-teacherId="@Model.User.UserName" asp-route-studentId="@User.Identity.Name" class="btn">Add Comment</a>
+
+                            if (Model.CommentCount > 0)
+                            {
+                                <a asp-controller="Comment" asp-action="Comments" asp-route-teacherId="@Model.User.UserName" class="btn">View Comments (@Model.CommentCount)</a>
+                                <div class="col span-1-of-3">
+                                    <label>
+                                        &nbsp;
+                                    </label>
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            if (Model.User.ResumeUrl != null)
+                            {
+                                <a class="btn" href="@Model.User.ResumeUrl" target="_blank">View Resume</a>
+                            }
+                            if (Model.CommentCount > 0)
+                            {
+                                <a asp-controller="Comment" asp-action="Comments" asp-route-teacherId="@Model.User.UserName" class="btn">View Comments (@Model.CommentCount)</a>
+                                <div class="col span-1-of-3">
+                                    <label>
+                                        &nbsp;
+                                    </label>
+                                </div>
+                            }
+
+                            <a asp-controller="Account" asp-action="EditProfile" class="edit">Edit Profile</a>
+                        }
+
+                    }
+                    else
+                    {
+                        @if (User.IsInRole("tutee"))
+                        {
+                            <a asp-controller="Account" asp-action="EditProfile" class="edit">Edit Profile</a>
+                        }
+                    }
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <div class="profile-right">
+                    <h1>@Model.User.FirstName @Model.User.LastName</h1><br>
+                    <p>@(Model.IsTeacher ? "Teacher" : "Student" ) | @Model.User.Description</p><br>
+                    <div style="margin-left: -45px;">
+                        <i class="fa fa-envelope icon" aria-hidden="true"></i><p>@Model.User.Email</p>
+                        <i class="fa fa-phone icon" aria-hidden="true"></i><p>@Model.User.PhoneNumber</p><br>
+                    </div>
+                    <p>
+                        @(Model.IsTeacher ? "Years of Teaching Experience" : "Years Speaking English"): <strong>@(Model.User.YearOfInterest ==1990? "+" : "")@(DateTime.Now.Year-Model.User.YearOfInterest)</strong>
+                    </p>
+
+                    @if (Model.IsTeacher)
+                    {
+                        <p>Satisfaction Rate: <strong>@Model.User.GetSatisfactionRate()%</strong></p>
+                        <p>Number of Times Booked: <strong>@Model.User.GetTimesBooked()</strong></p><br>
+                        <p>Availability:</p>
+                        <p><strong>@Model.User.GetAvailability()</strong></p><br>
+                    }
+                    else
+                    {
+                        <p>First Language: @((Languages)int.Parse(Model.User.FirstLanguage))</p><br>
+                    }
+
+                    <!-- latest comment here -->
+                    @if (Model.IsTeacher && Model.CommentCount > 0)
+                    {
+                        <p><b>Latest Comment</b><br /><i>@Model.LatestComment.Content</i></p>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
