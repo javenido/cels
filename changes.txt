@@ -1,0 +1,50 @@
+Change log
+
+GENERAL
+-icon added
+-titles improved
+-added comments
+-navigation bar is now a partial view
+-modified nagivation items
+
+REGISTRATION/EDIT PROFILE
+-added text for image/resume file name
+-from "Year started speaking" to "Year started speaking English" (increased width of form from 50% to 60%)
+
+PORTAL
+-welcome message changed to "hi, john smith"
+-Upcoming Appointment is working properly now
+-Most popular teacher feature implemented
+-removed next open schedule
+-added View Profile under Most Popular Teacher
+-changed 'View Registered Teachers' to 'View All Teachers'
+-Added "Rate Past Appointments" button (for students)
+
+PROFILE
+-if user is viewing his profile, it will now say "My Profile" on the top
+
+EDIT PROFILE
+-moved user's picture on top
+-added cancel button
+
+COMMENTS
+-added profile pic beside commenter's name
+-removed sort control
+-when user clicks on author's name, user is redirected to the author's profile
+-if empty, it will say "No one has commented on this profile."
+
+BROWSETEACHERS
+-satisfaction rate/number of times booked are now accurately displayed
+-rebuilt page to enable search/sort functionality
+-changed teachersViewModel
+-user will be notified if search did not return any results
+
+BOOKAPPOINTMENT
+-message is now optional
+
+APPOINTMENT(Model)
+-added GetDateTime, CalculateSatisfactionRating
+-if empty, it will say "This user has no scheduled appointments."
+
+COMMENT (Model)
+-added Get and Set Author
